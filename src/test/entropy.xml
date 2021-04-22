@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EntropyTest" parallel="false">
+  <test name="EntropyTestSuite">
+    <parameter name="randomFileBytesPath" value="src/test/resources/random.txt"/>
+    <parameter name="emptyFilePath" value="src/test/resources/empty.txt"/>
+    <parameter name="equalCharsFilePath" value="src/test/resources/equalChars.txt"/>
+    <classes>
+      <class name="EntropyTest">
+        <methods>
+          <include name="verifyForRandomBytesByDefault"/>
+          <include name="verifyForEmptyFile"/>
+          <include name="verifyForEqualBytes"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -15,6 +15,3 @@
 ## Verify application for file size < defined sub sequence
 
 ## Verify results are presented as expected (low < 2, high > 7)
-
-
-
